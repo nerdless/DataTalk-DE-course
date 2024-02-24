@@ -1,0 +1,14 @@
+bq-dbt-workshop:
+  outputs:
+    dev:
+      dataset: hw4
+      fixed_retries: 1
+      keyfile: /home/nerdless/de-course-412517-66c29960b993.json
+      location: EU
+      method: service-account
+      priority: interactive
+      project: de-course-412517
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev     
